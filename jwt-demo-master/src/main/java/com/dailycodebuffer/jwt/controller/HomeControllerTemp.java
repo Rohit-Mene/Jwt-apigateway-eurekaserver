@@ -50,4 +50,8 @@ public class HomeControllerTemp {
 
         return  new JwtResponse(token);
     }
+    @GetMapping("/sample")
+    public String sample(){
+        return "hello from sample";
+    }
 }

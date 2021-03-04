@@ -12,11 +12,9 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserData {
-
     private String firstName;
     private String lastName;
     @Id
     private String username;
     private String password;
-    //private String Image;
 }
